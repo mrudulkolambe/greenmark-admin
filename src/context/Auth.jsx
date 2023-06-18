@@ -16,7 +16,7 @@ const AuthContextProvider = ({ children }) => {
 				setUser(user)
 			} else {
 				setUser()
-				navigate('/login')
+				navigate('/')
 			}
 		});
 	}, []);
@@ -24,7 +24,7 @@ const AuthContextProvider = ({ children }) => {
 	const logoutUser = () => {
 		signOut(auth).then(() => {
 			setUser()
-			navigate('/login')
+			navigate('/')
 		}).catch((error) => {
 			alert(error.message)
 		});
