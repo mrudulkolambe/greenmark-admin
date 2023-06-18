@@ -21,8 +21,8 @@ function App() {
             <ServiceContextProvider>
               <BlogsContextProvider>
                 <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/login" element={<Login />} />
+                  {/* <Route path="/" element={<Home />} /> */}
+                  <Route path="/" element={<Login />} />
                   <Route path="/services" element={<Services />} />
                   <Route path="/contact" element={<Contact />} />
                   <Route path="/edit-services/:id" element={<Services />} />
