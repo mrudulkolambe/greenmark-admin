@@ -36,7 +36,7 @@ const Contact = () => {
 						<div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 py-4">
 							<div className="w-full md:w-1/2">
 								<form className="flex items-center">
-									<label for="simple-search" className="sr-only">Search</label>
+									<label htmlFor="simple-search" className="sr-only">Search</label>
 									<div className="relative w-full">
 										<div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
 											<svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
